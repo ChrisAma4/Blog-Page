@@ -1,0 +1,94 @@
+nav {
+    margin:30px;
+    display: flex;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+}
+ul,li,a {
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+    padding: 6px;
+}
+a {
+    background-color: firebrick;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 30px;
+}
+h1, footer {
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.java, .html, .css{
+    width:500px;
+    border: 7px solid firebrick;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}
+
+.thumbnail{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.article-title {
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+}
+.read-time {
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+}
+.content {
+    font-size: 12px;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 15px;
+}
+.more {
+    background-color: firebrick;
+    color: white;
+    border-radius: 25px;
+    padding: 12px;
+    font-size: 12px;
+}
+.css-title{
+    text-align: left;
+    font-size: 35px;
+}
+.css-text {
+    color: black;
+    text-align: center;
+}
+footer {
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+}
+.logo {
+    width: 210px;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.dogue {
+    width: 200px;
+    border: 5px solid red;
+    border-radius: 100px;
+}
+.text-dogue {
+    text-align: center;
+}
